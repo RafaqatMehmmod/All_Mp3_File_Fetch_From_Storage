@@ -9,5 +9,5 @@ import android.widget.TextView;
  * 29/06/2022
  */
 public interface A {
-    void click(TextView textName, View view);
+    void click(TextView textName, View view,int pos);
 }
