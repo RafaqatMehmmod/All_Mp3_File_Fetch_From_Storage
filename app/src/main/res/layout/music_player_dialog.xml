@@ -23,6 +23,8 @@
     <SeekBar
         android:id="@+id/seekbar"
         android:layout_width="0dp"
+           android:thumbTint="@color/white"
+            android:progressTint="@color/black"
         app:layout_constraintStart_toEndOf="@id/pause"
         app:layout_constraintEnd_toEndOf="@id/view"
         app:layout_constraintTop_toTopOf="@id/view"
